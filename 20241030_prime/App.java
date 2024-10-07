@@ -6,7 +6,9 @@ public class App {
 		System.out.println("Please enter a number to check if it is prime or not");
 		int prime = scanner.nextInt();
 		scanner.close();
-		System.out.println("Is " + prime + " a prime number? " + is_prime(prime));
+		for (int i = 1; i <= prime; i++) {
+			System.out.println("Is " + i + " a prime number? " + is_prime(i));
+		}
 	}
 
 	private static boolean is_prime(int n) {
@@ -17,7 +19,7 @@ public class App {
 
 		// for (int i = 2; i < n; i++) {
 		// for (int i = 2; i <= n / 2; i++) {
-		for (int i = 2; i <= Math.sqrt(i); i++) {
+		for (int i = 2; i <= Math.sqrt(n); i++) {
 			if (n % i == 0) {
 				return false;
 			}
