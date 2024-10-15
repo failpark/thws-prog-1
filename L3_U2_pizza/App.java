@@ -21,6 +21,7 @@ public class App {
 			if (this.area != 0.0) {
 				return this.area;
 			}
+			// this sould probably be (size / 2) * (size / 2)
 			this.area = Math.PI * Math.pow((size / 2), 2);
 			return this.area;
 		}
