@@ -3,6 +3,8 @@ public class App {
 		float p = 3;
 		float q = 1;
 
+		// We're not allowed to use Math.pow()
+		// we should use (p/2) * (p/2) instead of Math.pow(p/2, 2)
 		double under_root = Math.pow(p/2, 2) - q;
 
 		if (under_root < 0) {
