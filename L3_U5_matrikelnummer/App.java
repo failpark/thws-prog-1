@@ -10,6 +10,24 @@ public class App {
 			System.out.println("Matrikelnummer muss 7-stellig sein.");
 			return;
 		}
+		// Alternative falls substring nicht erlaubt:
+		/*
+		char beginning = matrikelnummer.charAt(0);
+		char second = matrikelnummer.charAt(1);
+		if (beginning != '5'
+			&& (second != '1'
+				|| second != '0')
+		) {
+			System.out.println("Matrikelnummer muss mit 50, 51 oder 61 beginnen.");
+			System.exit(1);
+		}
+		if (beginning != '6'
+			&& second != '1'
+		) {
+			System.out.println("Matrikelnummer muss mit 50, 51 oder 61 beginnen.");
+			System.exit(1);
+		}
+		*/
 		String beginning = matrikelnummer.substring(0, 2);
 		switch (beginning) {
 			case "50":
@@ -21,7 +39,7 @@ public class App {
 				System.exit(1);
 		}
 		// Check if the rest of the string is a number
-		// just cast and catch the error?
+		// just parse and catch the error?
 		try {
 			Integer.parseInt(matrikelnummer);
 			System.out.println("Matrikelnummer ist korrekt.");
