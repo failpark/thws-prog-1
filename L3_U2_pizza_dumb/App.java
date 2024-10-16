@@ -28,8 +28,14 @@ public class App {
 				return this.prize_per_area;
 			}
 			this.prize_per_area = prize / get_area();
-			this.prize_per_area = Math.round(this.prize_per_area * 10000.0) / 100.0;
+			this.prize_per_area = round(this.prize_per_area * 10_000.0) / 100.0;
 			return this.prize_per_area;
+		}
+
+		private static double round(double value) {
+			value = value + 0.5;
+			value = (int) value;
+			return value;
 		}
 	}
 

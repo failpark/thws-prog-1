@@ -31,6 +31,7 @@ public class App {
 				return this.prize_per_area;
 			}
 			this.prize_per_area = prize / get_area();
+			// Nope cant do Math.round ...
 			this.prize_per_area = Math.round(this.prize_per_area * 10000.0) / 100.0;
 			return this.prize_per_area;
 		}
