@@ -14,6 +14,7 @@ public class App {
 			System.out.println("FEHLER – Zahl ist ungueltig.");
 		}
 		scanner.close();
+		// could use a for loop with input.length & call charAt(i) instead of split
 		String[] nums_str = input.split("");
 		ArrayList<Integer> digits = new ArrayList<>();
 		for (int i = 0; i < nums_str.length; i++) {
