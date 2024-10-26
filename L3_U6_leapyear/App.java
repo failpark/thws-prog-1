@@ -8,7 +8,7 @@ public class App {
 		int year = scanner.nextInt();
 		scanner.close();
 		System.out.println(String.format("%s is %sa leap year", year, cal_leap_year(year) ? "" : "not "));
-		System.out.println(String.format("%s is %sa leap year", year, leap_year(year) ? "" : "not "));
+		System.out.println(year + " is " + (leap_year(year) ? "" : "not ") + "a leap year");
 	}
 
 	private static boolean cal_leap_year(int year) {
