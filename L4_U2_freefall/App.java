@@ -14,7 +14,11 @@ public class App {
 	}
 
 	private static double distance_fallen(int seconds) {
-		double distance = 0.5 * 9.80665 * Math.pow(seconds, 2);
+		double distance = 0.5 * 9.80665 * square(seconds);
 		return distance;
+	}
+
+	private static int square(int number) {
+		return number * number;
 	}
 }
