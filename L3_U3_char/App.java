@@ -12,13 +12,12 @@ public class App {
 		}
 		// get ascii value of character with casting
 		int c = line.charAt(0);
-		// upper
-		// hex
-		// octal
-		// binary
-		if (c >= 65 && c <= 90) System.out.println("Uppercase letter");
-		if ((c >= 65 && c <= 90) || (c >= 97 && c <= 122) || (c >= 48 && c <= 57)) System.out.println("Hexadecimal digit");
-		if (c >= 48 && c <= 55) System.out.println("Octal digit");
-		if (c == 48 || c == 49) System.out.println("Binary digit");
+		boolean known = false;
+
+		if (c >= 65 && c <= 90) System.out.println("Uppercase letter"); known = true;
+		if ((c >= 65 && c <= 90) || (c >= 97 && c <= 122) || (c >= 48 && c <= 57)) System.out.println("Hexadecimal digit"); known = true;
+		if (c >= 48 && c <= 55) System.out.println("Octal digit"); known = true;
+		if (c == 48 || c == 49) System.out.println("Binary digit"); known = true;
+		if (!known) System.out.println("Unknown character");
 	}
 }

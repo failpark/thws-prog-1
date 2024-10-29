@@ -27,9 +27,7 @@ public class App {
 		 * https://stackoverflow.com/a/2947077
 		 * https://docs.oracle.com/javase/specs/jls/se23/html/jls-15.html#jls-15.17.3
 		 * 
-		 * ist das Ergebnis sinnvoll? Ja / Nein ? Wie soll man sowas beantworten?
-		 * Persönlich wurde ich es vermeiden und vorher mit mit x10 (oder ähnlichem) multiplizieren und dann dividieren.
-		 * anschliessend das Ergebnis durch 10 dividieren. So sollten rundungsfehler vermieden werden.
+		 * -> durch rundungsungenauigkeit ist das ergebnis nicht sinnvoll
 		 */
 	}
 }

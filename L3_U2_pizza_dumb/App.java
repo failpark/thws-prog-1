@@ -5,10 +5,10 @@ import java.util.Scanner;
 public class App {
 
 	static class Pizza {
-		int size;
-		int prize;
-		double area;
-		double prize_per_area;
+		private int size;
+		private float prize;
+		private double area;
+		private double prize_per_area;
 
 		public Pizza(int size, int prize) {
 			this.size = size;
@@ -19,7 +19,7 @@ public class App {
 			if (this.area != 0.0) {
 				return this.area;
 			}
-			this.area = Math.PI * ((size / 2) * (size / 2));
+			this.area = Math.PI * ((size / 2.0f) * (size / 2.0f));
 			return this.area;
 		}
 
