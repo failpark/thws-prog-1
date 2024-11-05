@@ -6,6 +6,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "U2_arithmetic_mean",
+      "request": "launch",
+      "mainClass": "U2_arithmetic_mean",
+      "projectName": "L7_8e82c3b5"
+    },
+    {
+      "type": "java",
       "name": "U6_lotto",
       "request": "launch",
       "mainClass": "U6_lotto",
