@@ -1,21 +1,35 @@
 {
-	// Use IntelliSense to learn about possible attributes.
-	// Hover to view descriptions of existing attributes.
-	// For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
-	"version": "0.2.0",
-	"configurations": [
-		{
-			"type": "java",
-			"name": "Current File",
-			"request": "launch",
-			"mainClass": "${file}"
-		},
-		{
-			"type": "java",
-			"name": "U1_sin",
-			"request": "launch",
-			"mainClass": "U1_sin",
-			"projectName": "L7_8e82c3b5"
-		}
-	]
+  // Use IntelliSense to learn about possible attributes.
+  // Hover to view descriptions of existing attributes.
+  // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "java",
+      "name": "U6_lotto",
+      "request": "launch",
+      "mainClass": "U6_lotto",
+      "projectName": "L7_8e82c3b5"
+    },
+    {
+      "type": "java",
+      "name": "U5_euro",
+      "request": "launch",
+      "mainClass": "U5_euro",
+      "projectName": "L7_8e82c3b5"
+    },
+    {
+      "type": "java",
+      "name": "Current File",
+      "request": "launch",
+      "mainClass": "${file}"
+    },
+    {
+      "type": "java",
+      "name": "U1_sin",
+      "request": "launch",
+      "mainClass": "U1_sin",
+      "projectName": "L7_8e82c3b5"
+    }
+  ]
 }
