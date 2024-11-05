@@ -1,0 +1,8 @@
+@startuml cross_product
+start
+:Eingabe Zahl;
+:Hole einzelne Ziffern;
+:Setze Produkt auf 1;
+:Multipliziere Ziffern;
+stop
+@enduml
