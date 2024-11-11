@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Pi {
+public class U5_Pi {
 	public static void main(String[] args) {
 		Scanner scanner = new Scanner(System.in);
 		System.out.println("Mit wie vielen Rechtecken soll PI angenähert werden?");

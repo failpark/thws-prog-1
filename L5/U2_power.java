@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class App {
+public class U2_power {
 	public static void main(String[] args) {
 		Scanner scanner = new Scanner(System.in);
 		System.out.print("Enter the base number: ");

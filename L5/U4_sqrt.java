@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class App {
+public class U4_sqrt {
 	static int counter = 0;
 	static int orig_x = 0;
 	public static void main(String[] args) {
@@ -10,7 +10,7 @@ public class App {
 		scanner.close();
 		orig_x = x;
 		// double out_recursion = root_iter(1.0, x);
-		// System.out.println("Result: " + out_recursion);
+		// print(out_recursion);
 		double out_loop = root_loop(1.0, x);
 		print(out_loop);
 	}
@@ -70,6 +70,6 @@ public class App {
 			tmp = -tmp;
 		}
 
-		return tmp < 0.0000000001;
+		return tmp < 10e-5;
 	}
 }
