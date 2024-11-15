@@ -11,10 +11,7 @@ public class U5_Pi {
 		double x = 1;
 
 		for (int i = 1; i <= rectangles; i++) {
-			// * 4, weil wir mit den Rechtecken nur ein Viertel eines Kreises annähern
 			pi += (1.0 / rectangles) * x * 4;
-
-			// x ergibt sich immer aus dem Satz des Pythagoras vom Dreieck dessen Hypotenuse der Radius (1) ist, der bis zur oberen linken Ecke des i-ten Rechtecks zeigt
 			x = Math.sqrt(1 - sq(i * (1.0 / rectangles)));
 		}
 
