@@ -1,0 +1,42 @@
+{
+  // Use IntelliSense to learn about possible attributes.
+  // Hover to view descriptions of existing attributes.
+  // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "java",
+      "name": "Tree",
+      "request": "launch",
+      "mainClass": "Tree",
+      "projectName": "L12_d2cae705"
+    },
+    {
+      "type": "java",
+      "name": "U2_list",
+      "request": "launch",
+      "mainClass": "U2_list",
+      "projectName": "L12_d2cae705"
+    },
+    {
+      "type": "java",
+      "name": "U1_lotto",
+      "request": "launch",
+      "mainClass": "U1_lotto",
+      "projectName": "L12_d2cae705"
+    },
+    {
+      "type": "java",
+      "name": "Current File",
+      "request": "launch",
+      "mainClass": "${file}"
+    },
+    {
+      "type": "java",
+      "name": "U1_lotto",
+      "request": "launch",
+      "mainClass": "U1_lotto",
+      "projectName": "L12_a9018183"
+    }
+  ]
+}
