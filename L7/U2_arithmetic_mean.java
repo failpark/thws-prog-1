@@ -6,15 +6,23 @@ public class U2_arithmetic_mean {
 		Locale.setDefault(Locale.GERMANY);
 		Scanner input = new Scanner(System.in);
 		System.out.print("Anzahl der einzulesended Werte: ");
+
 		int count_values = input.nextInt();
+
 		if (count_values < 0) System.exit(1);
+
 		float[] values = new float[count_values];
+
 		for (int i = 0; i < count_values; i++) {
 			System.out.print((i + 1) + ". Wert:\t");
+
 			float val = input.nextFloat();
+
 			if (val < 0) System.exit(1);
+
 			values[i] = val;
 		}
+
 		input.close();
 		// float[] values = new float[] {3.14f, 2.67f, 6.71f, 1.45f, 5.23f};
 		System.out.println("Min:\t\t\t" + min(values));
@@ -25,7 +33,9 @@ public class U2_arithmetic_mean {
 
 	private static float min(float[] arr) {
 		float min = arr[0];
-		for (float val:arr) {
+		// for (float val:arr) {
+		for (int i = 0; i < arr.length; i++) {
+			float val = arr[i];
 			if (val < min) {
 				min = val;
 			}
@@ -35,7 +45,9 @@ public class U2_arithmetic_mean {
 
 	private static float max(float[] arr) {
 		float max = arr[0];
-		for (float val:arr) {
+		// for (float val:arr) {
+		for (int i = 0; i < arr.length; i++) {
+			float val = arr[i];
 			if (max < val) {
 				max = val;
 			}
@@ -45,7 +57,9 @@ public class U2_arithmetic_mean {
 
 	private static float mean(float[] arr) {
 		float sum = 0;
-		for(float val: arr) {
+		// for(float val: arr) {
+		for (int i = 0; i < arr.length; i++) {
+			float val = arr[i];
 			sum += val;
 		}
 		// return sum / arr.length;
@@ -55,7 +69,9 @@ public class U2_arithmetic_mean {
 	private static double std_deviation(float[] arr) {
 		float sum = 0;
 		float mean = mean(arr);
-		for (float val : arr) {
+		// for (float val : arr) {
+		for (int i = 0; i < arr.length; i++) {
+			float val = arr[i];
 			sum += sqr(val - mean);
 		}
 		// return Math.sqrt(sum / arr.length);
