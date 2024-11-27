@@ -4,9 +4,10 @@ public class U1_sin {
 	public static void main(String[] args) {
 		Scanner input = new Scanner(System.in);
 		System.out.print("Please input a num: ");
-		int x = input.nextInt();
+		double x = input.nextDouble();
 		input.close();
 		System.out.println(sin(x));
+		System.out.println(Math.sin(x));
 	}
 
 	private static double sin(double x) {
