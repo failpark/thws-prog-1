@@ -1,5 +1,5 @@
 public class U3_room {
-	public static void main() {
+	public static void main(String[] args) {
 		Room pool_1 = new Room("I.2.1", 40);
 		Room pool_2 = new Room("I.2.15", 20);
 

@@ -1,21 +1,42 @@
 {
-	// Use IntelliSense to learn about possible attributes.
-	// Hover to view descriptions of existing attributes.
-	// For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
-	"version": "0.2.0",
-	"configurations": [
-		{
-			"type": "java",
-			"name": "Current File",
-			"request": "launch",
-			"mainClass": "${file}"
-		},
-		{
-			"type": "java",
-			"name": "U2_Pizza",
-			"request": "launch",
-			"mainClass": "U2_Pizza",
-			"projectName": "L9_8e82c3b7"
-		}
-	]
+  // Use IntelliSense to learn about possible attributes.
+  // Hover to view descriptions of existing attributes.
+  // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "java",
+      "name": "U4_bottle",
+      "request": "launch",
+      "mainClass": "U4_bottle",
+      "projectName": "L9_78caeda2"
+    },
+    {
+      "type": "java",
+      "name": "U3_room",
+      "request": "launch",
+      "mainClass": "U3_room",
+      "projectName": "L9_78caeda2"
+    },
+    {
+      "type": "java",
+      "name": "U2_Pizza",
+      "request": "launch",
+      "mainClass": "U2_Pizza",
+      "projectName": "L9_78caeda2"
+    },
+    {
+      "type": "java",
+      "name": "Current File",
+      "request": "launch",
+      "mainClass": "${file}"
+    },
+    {
+      "type": "java",
+      "name": "U2_Pizza",
+      "request": "launch",
+      "mainClass": "U2_Pizza",
+      "projectName": "L9_8e82c3b7"
+    }
+  ]
 }
